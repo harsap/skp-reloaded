@@ -1,0 +1,21 @@
+/* here you can put your own css to customize and override the theme */
+
+#txtRow{
+  font-size: 12px;
+  font-weight: normal;
+  color: #333333;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  width:100%;
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#txtrow:focus{
+  border-color: #999999;
+  outline: 0;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

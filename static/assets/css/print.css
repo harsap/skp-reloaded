@@ -1,0 +1,52 @@
+/***
+Import fonts
+***/
+.header {
+    display: none;
+}
+
+.page-sidebar {
+    display: none;
+}
+
+.theme-panel {
+    display: none;
+}
+
+.hidden-print {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+
+.no-page-break {
+    page-break-after: avoid;
+}
+
+.page-container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page-content {
+    min-height: auto !important;
+}
+
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    .cetak {
+        width: 21cm;
+        padding-right: 2cm;
+        padding-bottom: 1cm;
+        margin-right: 3cm;
+        border: 0px ;
+        border-radius: 5px;
+        background: white;  
+    }
+}
